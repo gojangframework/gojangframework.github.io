@@ -3,12 +3,12 @@ module.exports = {
   title: 'Gojang Framework',
   tagline: 'A modern, batteries-included web framework for Go and HTMX',
   url: 'https://gojangframework.github.io',
-  baseUrl: '/gojang-docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/gojang_favicon.png',
   organizationName: 'gojangframework', // GitHub org/user
-  projectName: 'gojang-docs', // repo name for deployment
+  projectName: 'gojangframework.github.io', // repo name for deployment
   presets: [
     [
       '@docusaurus/preset-classic',
