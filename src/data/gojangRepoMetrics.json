@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "repository": {
+    "owner": "gojangframework",
+    "name": "gojang",
+    "fullName": "gojangframework/gojang",
+    "url": "https://github.com/gojangframework/gojang"
+  },
+  "generatedAt": null,
+  "summary": {
+    "stars": null,
+    "forks": null,
+    "openIssues": null,
+    "watchers": null,
+    "defaultBranch": null,
+    "lastPushedAt": null
+  },
+  "daily": [],
+  "windows": {
+    "7d": null,
+    "30d": null,
+    "90d": null,
+    "365d": null,
+    "all": null
+  }
+}
