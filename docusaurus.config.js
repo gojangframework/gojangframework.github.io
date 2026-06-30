@@ -53,6 +53,11 @@ module.exports = {
           position: 'left',
         },
         {
+          to: '/metrics',
+          label: 'Metrics',
+          position: 'left',
+        },
+        {
           type: 'dropdown',
           label: 'Community',
           position: 'left',
