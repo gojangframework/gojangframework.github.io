@@ -17,6 +17,10 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/gojangframework/gojang/edit/main/',
         },
+        gtag: {
+          trackingID: 'G-Q3LZVPNNHV',
+          anonymizeIP: true,
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
