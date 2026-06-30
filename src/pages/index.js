@@ -10,20 +10,15 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        {/* <img src="img/gojang_logo.png" alt="Gojang Logo" width="500" /> */}
+        <p className={styles.version}>v0.3.2 documentation</p>
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/quick-start">
-            Get Started in 5 Minutes ⚡
+          <Link className="button button--secondary button--lg" to="/docs/quick-start">
+            Get Started
           </Link>
-          <Link
-            className="button button--outline button--lg"
-            to="/docs/intro"
-            style={{marginLeft: '1rem'}}>
-            Learn More
+          <Link className="button button--outline button--lg" to="/docs/ai-skills/overview">
+            AI Skills
           </Link>
         </div>
       </div>
@@ -33,56 +28,56 @@ function HomepageHeader() {
 
 const FeatureList = [
   {
-    title: '🔋 Batteries Included',
+    title: 'AI-native workflow',
     description: (
       <>
-        Everything you need out of the box: authentication, admin panel, ORM, 
-        security features, and more. Start building features, not infrastructure.
+        Built-in skills help agents add data models, public pages, admin behavior,
+        auth changes, tests, and HTMX UI using Gojang conventions.
       </>
     ),
   },
   {
-    title: '⚡ HTMX First',
+    title: 'Batteries included',
     description: (
       <>
-        Build modern, dynamic web applications without heavy JavaScript frameworks. 
-        HTMX integration lets you create rich interactions with minimal code.
+        Authentication, sessions, CSRF, Ent models, admin CRUD, logging, email,
+        rate limiting, and deployment guidance are ready from the start.
       </>
     ),
   },
   {
-    title: '🛡️ Type Safe',
+    title: 'HTMX first',
     description: (
       <>
-        Powered by Ent ORM for compile-time type safety. Catch errors early 
-        and refactor with confidence. GraphQL-like queries in Go.
+        Build dynamic interfaces with Go templates, partial rendering, reusable
+        components, and small server-rendered HTMX responses.
       </>
     ),
   },
   {
-    title: '🚀 Production Ready',
+    title: 'Admin workspace',
     description: (
       <>
-        Built-in security best practices, structured logging, middleware, 
-        audit trails, and comprehensive testing support. Deploy with confidence.
+        Generated Ent models are discovered automatically and surfaced through an
+        Airtable-style staff workspace with registry-based customization.
       </>
     ),
   },
   {
-    title: '🎨 Auto-Generated Admin',
+    title: 'Modern auth',
     description: (
       <>
-        Reflection-based admin panel that automatically provides CRUD interfaces 
-        for any model. No manual admin code needed.
+        Email verification, forgot-password and reset-password flows, SES with
+        SMTP fallback, and reCAPTCHA v3 support are documented and integrated.
       </>
     ),
   },
   {
-    title: '📦 Developer Experience',
+    title: 'Production ready',
     description: (
       <>
-        Task-based automation, hot reload with Air, powerful generators, 
-        and clear project structure. Focus on building features.
+        Security headers, HTTPS enforcement, structured logging, deployment
+        guides, backups, monitoring, and distributed deployment patterns are covered.
       </>
     ),
   },
@@ -91,7 +86,7 @@ const FeatureList = [
 function Feature({title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center padding-horiz--md">
+      <div className={styles.feature}>
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
@@ -104,8 +99,8 @@ function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+          {FeatureList.map((props) => (
+            <Feature key={props.title} {...props} />
           ))}
         </div>
       </div>
@@ -119,28 +114,27 @@ function CodeExample() {
       <div className="container">
         <div className="row">
           <div className="col">
-            <h2>Quick Start</h2>
-            <p>Get up and running in minutes:</p>
+            <h2>Run Gojang locally</h2>
+            <p>Clone, configure, generate models, and start the dev server.</p>
             <pre>
-              <code>{`# Clone the repository
-git clone https://github.com/gojangframework/gojang
+              <code>{`git clone https://github.com/gojangframework/gojang
 cd gojang
-
-# Install Task automation
-go install github.com/go-task/task/v3/cmd/task@latest
-
-# Setup and run
-task migrate
-task seed
+cp .env.example .env
+go mod download
+task schema-gen
 task dev
 
-# Your app is now running at http://localhost:8080 🎉`}</code>
+# Seed the first admin account when ready
+task seed`}</code>
             </pre>
-            <Link
-              className="button button--primary button--lg"
-              to="/docs/quick-start">
-              View Full Quick Start Guide →
-            </Link>
+            <div className={styles.codeActions}>
+              <Link className="button button--primary button--lg" to="/docs/quick-start">
+                Full Quick Start
+              </Link>
+              <Link className="button button--secondary button--lg" to="/docs/creating-data-models">
+                Build With Data
+              </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -152,8 +146,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} - Modern Go Web Framework`}
-      description="A modern, batteries-included web framework for Go and HTMX. Build dynamic web applications with minimal JavaScript.">
+      title={`${siteConfig.title} - AI-native Go and HTMX framework`}
+      description="Gojang is an AI-native, batteries-included web framework for Go and HTMX with auth, admin, Ent, HTMX, security, and production guidance.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

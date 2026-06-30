@@ -1,7 +1,7 @@
 // Docusaurus config for Gojang docs
 module.exports = {
   title: 'Gojang Framework',
-  tagline: 'A modern, batteries-included web framework for Go and HTMX',
+  tagline: 'An AI-native, batteries-included web framework for Go and HTMX',
   url: 'https://gojangframework.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -48,6 +48,11 @@ module.exports = {
           position: 'left',
         },
         {
+          to: '/docs/ai-skills/overview',
+          label: 'AI Skills',
+          position: 'left',
+        },
+        {
           type: 'dropdown',
           label: 'Community',
           position: 'left',
@@ -90,6 +95,7 @@ module.exports = {
           items: [
             {label: 'Creating Data Models', to: 'docs/creating-data-models'},
             {label: 'HTMX Patterns', to: 'docs/htmx-patterns'},
+            {label: 'AI Skills', to: 'docs/ai-skills/overview'},
             {label: 'Deployment Guide', to: 'docs/deployment-guide'},
             {label: 'Testing', to: 'docs/testing-best-practices'},
           ],
@@ -107,6 +113,7 @@ module.exports = {
           title: 'More',
           items: [
             {label: 'Security', to: 'docs/SECURITY-SUMMARY'},
+            {label: 'Rate Limiting', to: 'docs/rate-limiting-guide'},
             {label: 'Project Structure', to: 'docs/project-structure'},
             {label: 'Architecture', to: 'docs/architecture-separation'},
           ],

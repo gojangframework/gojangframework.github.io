@@ -1,30 +1,36 @@
 ---
 id: project-structure
-title: Project Structure
-sidebar_label: Project Structure
-sidebar_position: 4
-description: Understanding Gojang's directory structure and file organization.
-keywords: [gojang, project structure, directory layout, organization]
+title: "Project Structure"
+sidebar_label: "Project Structure"
+description: "Understand the current Gojang app folder layout."
 ---
 
-The repository has the following structure:
+# Project Structure
 
-```
-gojang/
-├── admin/             # Auto-generated admin panel
-├── cmd/web/           # Application entry point
-├── config/            # Configuration management
-├── http/
-│   ├── handlers/      # Request handlers
-│   ├── middleware/    # Auth, security, sessions
-│   └── routes/        # Route definitions
-├── models/
-│   └── schema/        # Database models (define here)
-├── views/
-│   ├── forms/         # Form validation structs
-│   ├── renderers/     # View renderer
-│   ├── templates/     # HTML templates
-└──     static/        # CSS, images
+Gojang `v0.3.2` uses an `app/` base folder to separate framework internals from app-owned feature code.
+
+```text
+app/
+├── cmd/
+│   ├── migrate/        # Migration command
+│   ├── seed/           # Initial admin seed command
+│   └── web/            # Web application entry point
+├── gojang/             # Framework core: admin, config, auth, models, renderers
+├── pages/              # App-owned page handlers, routes, and templates
+├── posts/              # Example app-owned data feature
+├── schema/             # Ent schema files edited by app developers
+└── views/
+    ├── i18n/           # Translation files
+    ├── static/         # Public CSS and images
+    └── templates/      # Shared public templates
 ```
 
-See the code under `gojang/` for implementation details and generator tools.
+## Important Boundaries
+
+- Define data schemas in `app/schema`.
+- Generate Ent code into `app/gojang/models` with `go generate ./app/gojang/models` or `task schema-gen`.
+- Put public feature packages under `app/<feature>/`.
+- Keep framework admin code under `app/gojang/admin`.
+- Keep public templates separate from admin templates.
+
+Read [Admin and User Site Separation](./architecture-separation.md) for the architecture rules behind this layout.
