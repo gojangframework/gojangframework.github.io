@@ -8,7 +8,6 @@ const sidebars = {
       items: [
         'quick-start',
         'installation',
-        'quick-start-data-model',
         'project-structure',
       ],
     },
@@ -19,16 +18,47 @@ const sidebars = {
       items: [
         'features',
         'architecture-separation',
-        'htmx-patterns',
+        'docs-index',
       ],
     },
     {
       type: 'category',
       label: 'Building Applications',
       items: [
-        'creating-data-models',
         'creating-static-pages',
+        'quick-start-data-model',
+        'creating-data-models',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'AI Skills',
+      items: [
+        'ai-skills/overview',
+        'ai-skills/add-data-model',
+        'ai-skills/add-public-page',
+        'ai-skills/admin-workspace',
+        'ai-skills/auth-security',
+        'ai-skills/operate-test',
+        'ai-skills/render-htmx-ui',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Security & Auth',
+      items: [
         'authentication-authorization',
+        'security-summary',
+        'rate-limiting-guide',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Rendering & HTMX',
+      items: [
+        'htmx-patterns',
+        'html-renderer-guide',
+        'rendering-primitives-guide',
       ],
     },
     {
@@ -52,9 +82,7 @@ const sidebars = {
       type: 'category',
       label: 'Reference',
       items: [
-        'SECURITY-SUMMARY',
         'contributing',
-        'README',
       ],
     },
   ],
