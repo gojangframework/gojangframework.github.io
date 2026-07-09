@@ -6,7 +6,7 @@
     "fullName": "gojangframework/gojang",
     "url": "https://github.com/gojangframework/gojang"
   },
-  "generatedAt": "2026-07-08T07:44:02.855Z",
+  "generatedAt": "2026-07-09T08:50:18.452Z",
   "summary": {
     "stars": 15,
     "forks": 0,
@@ -268,63 +268,74 @@
         "count": 3,
         "uniques": 2
       }
+    },
+    {
+      "date": "2026-07-08",
+      "views": {
+        "count": 0,
+        "uniques": 0
+      },
+      "clones": {
+        "count": 12,
+        "uniques": 6
+      }
     }
   ],
   "windows": {
     "7d": {
       "key": "7d",
       "label": "Last 7 days",
-      "startDate": "2026-07-01",
-      "endDate": "2026-07-07",
+      "startDate": "2026-07-02",
+      "endDate": "2026-07-08",
       "days": 7,
       "views": 17,
       "viewUniques": 14,
-      "clones": 69,
-      "cloneUniques": 40
+      "clones": 80,
+      "cloneUniques": 45
     },
     "30d": {
       "key": "30d",
       "label": "Last 30 days",
       "startDate": "2026-06-15",
-      "endDate": "2026-07-07",
-      "days": 23,
+      "endDate": "2026-07-08",
+      "days": 24,
       "views": 553,
       "viewUniques": 43,
-      "clones": 482,
-      "cloneUniques": 276
+      "clones": 494,
+      "cloneUniques": 282
     },
     "90d": {
       "key": "90d",
       "label": "Last 90 days",
       "startDate": "2026-06-15",
-      "endDate": "2026-07-07",
-      "days": 23,
+      "endDate": "2026-07-08",
+      "days": 24,
       "views": 553,
       "viewUniques": 43,
-      "clones": 482,
-      "cloneUniques": 276
+      "clones": 494,
+      "cloneUniques": 282
     },
     "365d": {
       "key": "365d",
       "label": "Last 365 days",
       "startDate": "2026-06-15",
-      "endDate": "2026-07-07",
-      "days": 23,
+      "endDate": "2026-07-08",
+      "days": 24,
       "views": 553,
       "viewUniques": 43,
-      "clones": 482,
-      "cloneUniques": 276
+      "clones": 494,
+      "cloneUniques": 282
     },
     "all": {
       "key": "all",
       "label": "All collected",
       "startDate": "2026-06-15",
-      "endDate": "2026-07-07",
-      "days": 23,
+      "endDate": "2026-07-08",
+      "days": 24,
       "views": 553,
       "viewUniques": 43,
-      "clones": 482,
-      "cloneUniques": 276
+      "clones": 494,
+      "cloneUniques": 282
     }
   }
 }
