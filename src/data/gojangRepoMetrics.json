@@ -6,7 +6,7 @@
     "fullName": "gojangframework/gojang",
     "url": "https://github.com/gojangframework/gojang"
   },
-  "generatedAt": "2026-08-05T07:59:34.441Z",
+  "generatedAt": "2026-08-06T07:58:44.795Z",
   "summary": {
     "stars": 16,
     "forks": 0,
@@ -576,37 +576,48 @@
         "count": 1,
         "uniques": 1
       }
+    },
+    {
+      "date": "2026-08-05",
+      "views": {
+        "count": 0,
+        "uniques": 0
+      },
+      "clones": {
+        "count": 0,
+        "uniques": 0
+      }
     }
   ],
   "windows": {
     "7d": {
       "key": "7d",
       "label": "Last 7 days",
-      "startDate": "2026-07-29",
-      "endDate": "2026-08-04",
+      "startDate": "2026-07-30",
+      "endDate": "2026-08-05",
       "days": 7,
-      "views": 18,
-      "viewUniques": 13,
-      "clones": 26,
-      "cloneUniques": 26
+      "views": 13,
+      "viewUniques": 9,
+      "clones": 25,
+      "cloneUniques": 25
     },
     "30d": {
       "key": "30d",
       "label": "Last 30 days",
-      "startDate": "2026-07-06",
-      "endDate": "2026-08-04",
+      "startDate": "2026-07-07",
+      "endDate": "2026-08-05",
       "days": 30,
-      "views": 86,
-      "viewUniques": 66,
-      "clones": 95,
-      "cloneUniques": 79
+      "views": 82,
+      "viewUniques": 62,
+      "clones": 88,
+      "cloneUniques": 75
     },
     "90d": {
       "key": "90d",
       "label": "Last 90 days",
       "startDate": "2026-06-15",
-      "endDate": "2026-08-04",
-      "days": 51,
+      "endDate": "2026-08-05",
+      "days": 52,
       "views": 634,
       "viewUniques": 104,
       "clones": 567,
@@ -616,8 +627,8 @@
       "key": "365d",
       "label": "Last 365 days",
       "startDate": "2026-06-15",
-      "endDate": "2026-08-04",
-      "days": 51,
+      "endDate": "2026-08-05",
+      "days": 52,
       "views": 634,
       "viewUniques": 104,
       "clones": 567,
@@ -627,8 +638,8 @@
       "key": "all",
       "label": "All collected",
       "startDate": "2026-06-15",
-      "endDate": "2026-08-04",
-      "days": 51,
+      "endDate": "2026-08-05",
+      "days": 52,
       "views": 634,
       "viewUniques": 104,
       "clones": 567,
