@@ -6,7 +6,7 @@
     "fullName": "gojangframework/gojang",
     "url": "https://github.com/gojangframework/gojang"
   },
-  "generatedAt": "2026-09-15T10:12:36.161Z",
+  "generatedAt": "2026-09-16T10:06:33.750Z",
   "summary": {
     "stars": 16,
     "forks": 0,
@@ -1027,50 +1027,61 @@
         "count": 0,
         "uniques": 0
       }
+    },
+    {
+      "date": "2026-09-15",
+      "views": {
+        "count": 4,
+        "uniques": 4
+      },
+      "clones": {
+        "count": 0,
+        "uniques": 0
+      }
     }
   ],
   "windows": {
     "7d": {
       "key": "7d",
       "label": "Last 7 days",
-      "startDate": "2026-09-08",
-      "endDate": "2026-09-14",
+      "startDate": "2026-09-09",
+      "endDate": "2026-09-15",
       "days": 7,
-      "views": 7,
-      "viewUniques": 5,
+      "views": 11,
+      "viewUniques": 9,
       "clones": 15,
       "cloneUniques": 15
     },
     "30d": {
       "key": "30d",
       "label": "Last 30 days",
-      "startDate": "2026-08-16",
-      "endDate": "2026-09-14",
+      "startDate": "2026-08-17",
+      "endDate": "2026-09-15",
       "days": 30,
-      "views": 49,
-      "viewUniques": 27,
+      "views": 53,
+      "viewUniques": 31,
       "clones": 70,
       "cloneUniques": 67
     },
     "90d": {
       "key": "90d",
       "label": "Last 90 days",
-      "startDate": "2026-06-17",
-      "endDate": "2026-09-14",
+      "startDate": "2026-06-18",
+      "endDate": "2026-09-15",
       "days": 90,
-      "views": 592,
-      "viewUniques": 135,
-      "clones": 573,
-      "cloneUniques": 387
+      "views": 549,
+      "viewUniques": 136,
+      "clones": 561,
+      "cloneUniques": 379
     },
     "365d": {
       "key": "365d",
       "label": "Last 365 days",
       "startDate": "2026-06-15",
-      "endDate": "2026-09-14",
-      "days": 92,
-      "views": 692,
-      "viewUniques": 137,
+      "endDate": "2026-09-15",
+      "days": 93,
+      "views": 696,
+      "viewUniques": 141,
       "clones": 668,
       "cloneUniques": 446
     },
@@ -1078,10 +1089,10 @@
       "key": "all",
       "label": "All collected",
       "startDate": "2026-06-15",
-      "endDate": "2026-09-14",
-      "days": 92,
-      "views": 692,
-      "viewUniques": 137,
+      "endDate": "2026-09-15",
+      "days": 93,
+      "views": 696,
+      "viewUniques": 141,
       "clones": 668,
       "cloneUniques": 446
     }
