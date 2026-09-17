@@ -6,7 +6,7 @@
     "fullName": "gojangframework/gojang",
     "url": "https://github.com/gojangframework/gojang"
   },
-  "generatedAt": "2026-09-16T10:06:33.750Z",
+  "generatedAt": "2026-09-17T10:09:37.668Z",
   "summary": {
     "stars": 16,
     "forks": 0,
@@ -1038,48 +1038,59 @@
         "count": 0,
         "uniques": 0
       }
+    },
+    {
+      "date": "2026-09-16",
+      "views": {
+        "count": 0,
+        "uniques": 0
+      },
+      "clones": {
+        "count": 0,
+        "uniques": 0
+      }
     }
   ],
   "windows": {
     "7d": {
       "key": "7d",
       "label": "Last 7 days",
-      "startDate": "2026-09-09",
-      "endDate": "2026-09-15",
+      "startDate": "2026-09-10",
+      "endDate": "2026-09-16",
       "days": 7,
-      "views": 11,
-      "viewUniques": 9,
-      "clones": 15,
-      "cloneUniques": 15
+      "views": 9,
+      "viewUniques": 8,
+      "clones": 13,
+      "cloneUniques": 13
     },
     "30d": {
       "key": "30d",
       "label": "Last 30 days",
-      "startDate": "2026-08-17",
-      "endDate": "2026-09-15",
+      "startDate": "2026-08-18",
+      "endDate": "2026-09-16",
       "days": 30,
-      "views": 53,
-      "viewUniques": 31,
+      "views": 50,
+      "viewUniques": 28,
       "clones": 70,
       "cloneUniques": 67
     },
     "90d": {
       "key": "90d",
       "label": "Last 90 days",
-      "startDate": "2026-06-18",
-      "endDate": "2026-09-15",
+      "startDate": "2026-06-19",
+      "endDate": "2026-09-16",
       "days": 90,
       "views": 549,
       "viewUniques": 136,
-      "clones": 561,
-      "cloneUniques": 379
+      "clones": 557,
+      "cloneUniques": 377
     },
     "365d": {
       "key": "365d",
       "label": "Last 365 days",
       "startDate": "2026-06-15",
-      "endDate": "2026-09-15",
-      "days": 93,
+      "endDate": "2026-09-16",
+      "days": 94,
       "views": 696,
       "viewUniques": 141,
       "clones": 668,
@@ -1089,8 +1100,8 @@
       "key": "all",
       "label": "All collected",
       "startDate": "2026-06-15",
-      "endDate": "2026-09-15",
-      "days": 93,
+      "endDate": "2026-09-16",
+      "days": 94,
       "views": 696,
       "viewUniques": 141,
       "clones": 668,
